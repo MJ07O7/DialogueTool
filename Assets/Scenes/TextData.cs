@@ -7,10 +7,22 @@ using UnityEngine;
 public class TextData : ScriptableObject
 {
     [Header("Text Input")]
-        private string _YourTextHere;
+    [SerializeField]
+    private string _YourTextHere;
 
     [Header("Text Settings")]
     [SerializeField]
     [Range(0,100)]
     private float _textSize;
+
+    [Header("TextBox Settings")]
+    //[SerializeField]
+    //determine shape of text box
+
+    //color
+
+    //location
+
+    [SerializeField]
+    private float _durationOnScreen;
 }

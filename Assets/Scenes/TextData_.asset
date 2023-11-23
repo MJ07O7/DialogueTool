@@ -12,4 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc0ddce0ece484945953bd1ca3e0bd76, type: 3}
   m_Name: TextData_
   m_EditorClassIdentifier: 
-  _textSize: 0
+  _YourTextHere: This will go in the text box
+  _textSize: 5
+  _durationOnScreen: 0
