@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 
-
 public class DialogueEditorWindow : EditorWindow
 {
-    string stringToEdit = "Write Dialogue Here";
+    public string[] stringToEdit;
+    float scale = 1.0f;
+    public Color textBoxColor;
 
     [MenuItem("Window/DialogueEditing")]
         public static void ShowWindow()
@@ -21,12 +22,12 @@ public class DialogueEditorWindow : EditorWindow
         
         EditorGUILayout.Space();
 
-        //    stringToEdit = GUILayout.TextField(stringToEdit);
-            stringToEdit = EditorGUI.TextArea(new Rect(20, 30, position.width - 600, position.height - 750), stringToEdit);
+     
+       //stringToEdit = EditorGUI.TextArea(new Rect(20, 30, position.width - 600, position.height - 750), stringToEdit);
 
-       
-       // GUILayout.Label("Speed of Text");
-        //EditorGUI.LabelField (new Rect(300));
+        GUI.Label(new Rect(5, 170, 100, 20), "Text Speed");
+        ;
+        scale = EditorGUI.Slider(new Rect(100, 170, 150, 20), scale, 1, 5);
     }
 }
 /*
