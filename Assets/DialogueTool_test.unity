@@ -139,7 +139,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4428840
 Transform:
   m_ObjectHideFlags: 0
@@ -172,9 +172,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8fe2aa14bc971a948b8278b06acbe27d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  portrait: {fileID: 0}
-  fullName: {fileID: 0}
-  dialogue: {fileID: 0}
+  portrait: {fileID: 889877978}
+  fullName: {fileID: 350018508}
+  dialogue: {fileID: 1838574539}
 --- !u!1 &237280345
 GameObject:
   m_ObjectHideFlags: 0
@@ -817,7 +817,7 @@ GameObject:
   - component: {fileID: 882915860}
   - component: {fileID: 882915862}
   - component: {fileID: 882915861}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: DialoguePanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -982,8 +982,8 @@ Transform:
   m_GameObject: {fileID: 932133612}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.38297, y: 0.58646, z: 0}
+  m_LocalScale: {x: 1.0505903, y: 1.0505903, z: 1.0505903}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1812339847}
@@ -1002,7 +1002,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d52c8217ac8ff1a4084e78786bca2538, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  conversation: {fileID: 11400000, guid: b40ec9ee8ac835b4e978e4c6a6f8079a, type: 2}
+  conversation: {fileID: 11400000, guid: b144720198868eb448f6d2a4a1f55027, type: 2}
   speakerLeft: {fileID: 1812339846}
   speakerRight: {fileID: 4428839}
 --- !u!1 &1098825733
@@ -1234,7 +1234,7 @@ GameObject:
   - component: {fileID: 1318877502}
   - component: {fileID: 1318877504}
   - component: {fileID: 1318877503}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: NamePanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1257,7 +1257,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 78.5, y: 138.2}
+  m_AnchoredPosition: {x: 78.5, y: 136.4}
   m_SizeDelta: {x: 533, y: 352}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1318877503
@@ -1332,7 +1332,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 101.9, y: 134.7}
+  m_AnchoredPosition: {x: 101.9, y: 132.9}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1591046087
@@ -1448,7 +1448,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1812339847
 Transform:
   m_ObjectHideFlags: 0
@@ -1481,9 +1481,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8fe2aa14bc971a948b8278b06acbe27d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  portrait: {fileID: 0}
-  fullName: {fileID: 0}
-  dialogue: {fileID: 0}
+  portrait: {fileID: 1098825735}
+  fullName: {fileID: 1591046087}
+  dialogue: {fileID: 685666693}
 --- !u!1 &1838574537
 GameObject:
   m_ObjectHideFlags: 0

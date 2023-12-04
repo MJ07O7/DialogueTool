@@ -12,16 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed895e3a59c55dc4d8767c93fb7226a7, type: 3}
   m_Name: Introductions
   m_EditorClassIdentifier: 
-  speakerLeft: {fileID: 11400000, guid: 239eea8d1e3720d47b550ab6d1b0201a, type: 2}
-  speakerRight: {fileID: 11400000, guid: b01bc0a4eb314444bb3db55a7e7e5569, type: 2}
+  speakerLeft: {fileID: 11400000, guid: 0d714d0b3b8d3544b99fdec23e5526cb, type: 2}
+  speakerRight: {fileID: 11400000, guid: aa55622507051b345bf26a285fd822ac, type: 2}
   lines:
-  - character: {fileID: 11400000, guid: 239eea8d1e3720d47b550ab6d1b0201a, type: 2}
-    text: Who are you?
-  - character: {fileID: 11400000, guid: b01bc0a4eb314444bb3db55a7e7e5569, type: 2}
-    text: I am Marth
-  - character: {fileID: 11400000, guid: b01bc0a4eb314444bb3db55a7e7e5569, type: 2}
-    text: Who are you?
-  - character: {fileID: 11400000, guid: 239eea8d1e3720d47b550ab6d1b0201a, type: 2}
-    text: I am Chrom.
-  - character: {fileID: 11400000, guid: b01bc0a4eb314444bb3db55a7e7e5569, type: 2}
-    text: I see.
+  - character: {fileID: 11400000, guid: 0d714d0b3b8d3544b99fdec23e5526cb, type: 2}
+    text: Hello Marth
+  - character: {fileID: 11400000, guid: aa55622507051b345bf26a285fd822ac, type: 2}
+    text: Hello Chrom
+  - character: {fileID: 11400000, guid: aa55622507051b345bf26a285fd822ac, type: 2}
+    text: How are you?
+  - character: {fileID: 11400000, guid: 0d714d0b3b8d3544b99fdec23e5526cb, type: 2}
+    text: I am fine
+  - character: {fileID: 11400000, guid: 0d714d0b3b8d3544b99fdec23e5526cb, type: 2}
+    text: Do you want to duel?
+  - character: {fileID: 11400000, guid: aa55622507051b345bf26a285fd822ac, type: 2}
+    text: Sure, why not.
